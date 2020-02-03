@@ -1,0 +1,149 @@
+/*Nav Bars*/
+
+.title{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitle{
+    text-align: left;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav {
+	background: brown;
+	height: fit-content;
+    width: 100%;
+    margin-top: 0em;
+	position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
+.nav-list {
+	list-style: none;
+	height: 100%;
+	margin: 0 auto;
+	margin-right: 60px;
+	float: right;
+}
+
+.nav-list-item {
+	display: inline-block;
+	margin-left: auto;
+    margin-top: auto;
+    margin-right: 25px;
+}
+
+.nav-list-anchor {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2em;
+	font-weight: 200;
+}
+.social-img{
+    display: inline-block;
+    border: hidden;
+    border-radius: 4px;
+    margin: 0em;
+    width: 50px;
+       
+}
+/*Browser Bars*/
+.browser-nav {
+	list-style: none;
+	height: auto;
+	margin: 0 auto;
+	margin-right: 60px;
+	float: right;
+}
+
+.browser-list-item {
+	display: inline-block;
+	margin-left: auto;
+    margin-top: auto;
+    margin-right: 25px;
+}
+
+.browser-anchor {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2em;
+    font-weight: 200;
+}
+
+/*Main Section*/
+.container {
+    position: relative;
+    float: center;
+    width:100%;
+    height: fit-content;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+.wood {
+    background: white;
+    margin: 10px;
+    display: inline;
+    text-align: center;
+    
+}
+.pic{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+  position: center;
+ }
+ .h4{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 100px;
+ }
+
+.caption{
+    margin-top: 10px;
+}
+
+/*Sidebar Section*/
+.blogcontainer{
+    position: relative;
+    float: right;
+    width: 10em;
+    height: fit-content;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    margin-bottom: 2px;
+    margin-right: 2px;  
+}
+/*Footer*/
+.footer {
+	background: browns;
+    position: fixed;
+    height: 50px;
+    right: 0;
+    bottom:0;
+    left:0;
+    text-align: top;
+}
+
+.footer-list {
+	list-style: none;
+	height: center;
+	margin: 0 auto;
+	margin-right: 60px;
+    position: fixed;
+    text-align: center;
+}
+
+.footer-list-item {
+	display: inline-block;
+	margin-left: center;
+    margin-top: center;
+    margin-right: 50px;
+    vertical-align: top;
+    text-align: center;
+}
